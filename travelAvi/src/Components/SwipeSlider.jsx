@@ -41,7 +41,7 @@ export const SwipeSlider = () => {
               <div className="w-full max-auto">
                 <img
                   src={item?.path}
-                  className="w-full h-[800px] object-cover"
+                  className="w-full h-[740px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gray-800 opacity-30"></div>
                 <div className="absolute inset-0 flex justify-center items-center mt-[-100px]">
