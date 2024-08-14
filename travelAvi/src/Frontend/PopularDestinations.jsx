@@ -5,7 +5,7 @@ import ImageCard from "../Components/ImageCard";
 
 const PopularDestinations = ({ data }) => {
   return (
-    <div className="mt-20 max-w-7xl mx-auto">
+    <div className="mt-20 max-w-7xl mx-auto p-2 sm:p-0">
       <Heading
         name={"Popular Destination"}
         description={
