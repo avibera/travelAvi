@@ -3,6 +3,7 @@ import { SwipeSlider } from "../Components/SwipeSlider";
 import { SliderShape } from "../Components/SliderShape";
 import { BookingForm } from "./BookingForm";
 import PopularDestinations from "./PopularDestinations";
+import InternationalDestinations from "./InternationalDestinations";
 
 const data = [
   {
@@ -40,7 +41,38 @@ export default function Home() {
       <SwipeSlider />
       <SliderShape children={<BookingForm />} />
       <PopularDestinations data={data} />
-      <div className="h-[100px]"></div>
+
+      <div>
+        <div className="max-w-7xl mx-auto py-20">
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <img
+                className="w-full h-[500px] overflow-hidden object-cover"
+                src="https://i.redd.it/11rzivken0lb1.jpg"
+              />
+            </div>
+            <div className="p-10">
+              <p className="text-[45px] mt-10 font-arbil">
+                A Simply Perfect Place<br></br> To Get Lost
+              </p>
+
+              <p className="text-gray-400 text-lg font-knit py-8">
+                Treat yourself with a journey to your inner self. Visit a
+                mystique Tibet and start your spiritual adventure. We promise,
+                you’ll enjoy every step you make.
+              </p>
+
+              <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-20">
+        <InternationalDestinations />
+      </div>
     </>
   );
 }

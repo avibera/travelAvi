@@ -53,7 +53,7 @@ export const SwipeSlider = () => {
                       {item?.description}
                     </p>
                     <div className="flex justify-center pt-10">
-                      <button className="text-white bg-red-500 px-6 py-1.5 sm:px-8 sm:py-3 rounded-lg">
+                      <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
                         Book Now
                       </button>
                     </div>

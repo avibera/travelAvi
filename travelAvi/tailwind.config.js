@@ -4,7 +4,8 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                knit: ["Kanit", "sans-serif"]
+                knit: ["Kanit", "sans-serif"],
+                arbil: ["Abril Fatface", "serif"]
             },
             fontWeight: {
                 100: "100",
