@@ -42,21 +42,21 @@ export default function Home() {
       <SliderShape children={<BookingForm />} />
       <PopularDestinations data={data} />
 
-      <div>
-        <div className="max-w-7xl mx-auto py-20">
-          <div className="grid grid-cols-2 gap-4">
+      <div className="bg-gray-100">
+        <div className="max-w-7xl mx-auto py-16 p-4 smp:p-0">
+          <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <img
-                className="w-full h-[500px] overflow-hidden object-cover"
+                className="w-full h-[460px] overflow-hidden object-cover"
                 src="https://i.redd.it/11rzivken0lb1.jpg"
               />
             </div>
-            <div className="p-10">
-              <p className="text-[45px] mt-10 font-arbil">
+            <div className="p-2 sm:p-10">
+              <p className="text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
                 A Simply Perfect Place<br></br> To Get Lost
               </p>
 
-              <p className="text-gray-400 text-lg font-knit py-8">
+              <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure. We promise,
                 you’ll enjoy every step you make.
@@ -70,8 +70,36 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="py-20">
+      <div className="pb-32">
         <InternationalDestinations />
+      </div>
+
+      <div className="bg-gray-100 mb-10 bg-black">
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div className="w-[580px] mx-auto">
+            <div className="text-center p-2 sm:p-10">
+              <p className="text-white text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
+                A Simply Perfect Place<br></br> To Get Lost
+              </p>
+
+              <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+                Treat yourself with a journey to your inner self. Visit a
+                mystique Tibet and start your spiritual adventure. We promise,
+                you’ll enjoy every step you make.
+              </p>
+
+              <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
+                Book Now
+              </button>
+            </div>
+          </div>
+          <div>
+            <img
+              className="w-full h-[560px] overflow-hidden object-cover"
+              src="https://img.freepik.com/premium-photo/little-girl-is-hugging-elephant-with-girl-back_199644-15771.jpg"
+            />
+          </div>
+        </div>
       </div>
     </>
   );
