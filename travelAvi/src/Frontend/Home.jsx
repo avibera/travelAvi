@@ -75,7 +75,7 @@ export default function Home() {
         <InternationalDestinations />
       </div>
 
-      <div className="bg-gray-100 mb-10 bg-black">
+      <div className=" mb-10 bg-black">
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="w-[580px] mx-auto">
             <div className="text-center p-2 sm:p-10">
@@ -103,7 +103,68 @@ export default function Home() {
         </div>
       </div>
 
-      <LastMinuteOffers />
+      <div className="mb-40">
+        <LastMinuteOffers />
+      </div>
+
+      <div className="relative">
+        <div className="bg-gray-100 mb-10">
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div>
+              <img
+                className="w-full h-[560px] overflow-hidden object-cover"
+                src="https://images.pexels.com/photos/20369420/pexels-photo-20369420/free-photo-of-trees-in-deep-evergreen-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              />
+            </div>
+            <div className="w-[580px] mx-auto">
+              <div className="text-center p-2 sm:p-10 mt-14">
+                <p className="text-gray-700 text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
+                  A Simply Perfect Place<br></br> To Get Lost
+                </p>
+
+                <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+                  Treat yourself with a journey to your inner self. Visit a
+                  mystique Tibet and start your spiritual adventure. We promise,
+                  you’ll enjoy every step you make.
+                </p>
+
+                <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="absolute top-[-75px] left-0 right-0 p-10 max-w-7xl mx-auto"
+          style={{
+            backgroundImage: `url(${`https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/h1-img-7.jpg?id=222`})`,
+          }}
+        >
+          <div className="flex justify-start items-center gap-40">
+            <div>
+              <span className="text-3xl text-gray-800 font-arbil">
+                Join Newsletter!
+              </span>
+              <p className="text-xl text-gray-800 font-knit">
+                To receive our best deals
+              </p>
+            </div>
+            <div>
+              <div className="flex justify-center items-center">
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  className="w-[620px] px-4 py-4 text-gray-800 outline-none font-knit"
+                />
+                <button className="text-white px-16 py-4 font-knit bg-slate-800">
+                  Suscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
