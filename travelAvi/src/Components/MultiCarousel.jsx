@@ -2,8 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ImageCard from "./ImageCard";
+import ImageCardWithPrice from "./ImageCardWithPrice";
 
-const MultiCarousel = ({ data }) => {
+const MultiCarousel = ({ data, type }) => {
   return (
     <div>
       <Carousel
@@ -59,13 +60,18 @@ const MultiCarousel = ({ data }) => {
         slidesToSlide={1}
         swipeable
       >
-        {data?.map((item, index) => (
-          <div key={index}>
-            <div className="px-2">
-              <ImageCard item={item} />
+        {data &&
+          data?.map((item, index) => (
+            <div key={index}>
+              <div className="px-2">
+                {type === "cardWithPrice" ? (
+                  <ImageCardWithPrice item={item} />
+                ) : (
+                  <ImageCard item={item} />
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
       </Carousel>
     </div>
   );

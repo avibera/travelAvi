@@ -4,6 +4,7 @@ import { SliderShape } from "../Components/SliderShape";
 import { BookingForm } from "./BookingForm";
 import PopularDestinations from "./PopularDestinations";
 import InternationalDestinations from "./InternationalDestinations";
+import LastMinuteOffers from "./LastMinuteOffers";
 
 const data = [
   {
@@ -101,6 +102,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <LastMinuteOffers />
     </>
   );
 }
