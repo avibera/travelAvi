@@ -49,11 +49,11 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <img
-                className="w-full h-[460px] overflow-hidden object-cover"
+                className="w-full h-[320px] sm:h-[460px] overflow-hidden object-cover"
                 src="https://i.redd.it/11rzivken0lb1.jpg"
               />
             </div>
-            <div className="p-2 sm:p-10">
+            <div className="text-center p-2 sm:p-10">
               <p className="text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
                 A Simply Perfect Place<br></br> To Get Lost
               </p>
@@ -76,9 +76,9 @@ export default function Home() {
         <InternationalDestinations />
       </div>
 
-      <div className=" mb-10 bg-black">
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div className="w-[580px] mx-auto">
+      <div className=" mb-10 bg-[#1C1C1C]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="w-[380px] sm:w-[580px] mx-auto py-7">
             <div className="text-center p-2 sm:p-10">
               <p className="text-white text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
                 A Simply Perfect Place<br></br> To Get Lost
@@ -97,7 +97,7 @@ export default function Home() {
           </div>
           <div>
             <img
-              className="w-full h-[560px] overflow-hidden object-cover"
+              className="w-full h-[330px] sm:h-[560px] overflow-hidden object-cover"
               src="https://img.freepik.com/premium-photo/little-girl-is-hugging-elephant-with-girl-back_199644-15771.jpg"
             />
           </div>
@@ -113,12 +113,12 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <img
-                className="w-full h-[560px] overflow-hidden object-cover"
+                className="w-full h-[420px] sm:h-[560px] overflow-hidden object-cover"
                 src="https://images.pexels.com/photos/20369420/pexels-photo-20369420/free-photo-of-trees-in-deep-evergreen-forest.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
               />
             </div>
-            <div className="w-[580px] mx-auto">
-              <div className="text-center p-2 sm:p-10 mt-14">
+            <div className="w-[380px] sm:w-[580px] mx-auto py-6">
+              <div className="text-center p-2 sm:p-10 sm:mt-14">
                 <p className="text-gray-700 text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
                   A Simply Perfect Place<br></br> To Get Lost
                 </p>
@@ -137,13 +137,13 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="absolute top-[-75px] left-0 right-0 p-10 max-w-7xl mx-auto"
+          className="absolute top-[-75px] left-0 right-0 p-8 sm:p-10 max-w-7xl mx-auto"
           style={{
             backgroundImage: `url(${`https://wanderers.qodeinteractive.com/wp-content/uploads/2018/02/h1-img-7.jpg?id=222`})`,
           }}
         >
-          <div className="flex justify-start items-center gap-40">
-            <div>
+          <div className="sm:flex sm:justify-start items-center gap-40">
+            <div className="text-center">
               <span className="text-3xl text-gray-800 font-arbil">
                 Join Newsletter!
               </span>
@@ -151,14 +151,14 @@ export default function Home() {
                 To receive our best deals
               </p>
             </div>
-            <div>
+            <div className="mt-4 sm:mt-0">
               <div className="flex justify-center items-center">
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className="w-[620px] px-4 py-4 text-gray-800 outline-none font-knit"
+                  className="w-[250px] sm:w-[620px] px-4 py-4 text-gray-800 outline-none font-knit"
                 />
-                <button className="text-white px-16 py-4 font-knit bg-slate-800">
+                <button className="text-white px-5 sm:px-16 py-4 font-knit bg-slate-800">
                   Suscribe
                 </button>
               </div>
