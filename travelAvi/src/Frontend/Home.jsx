@@ -5,6 +5,7 @@ import { BookingForm } from "./BookingForm";
 import PopularDestinations from "./PopularDestinations";
 import InternationalDestinations from "./InternationalDestinations";
 import LastMinuteOffers from "./LastMinuteOffers";
+import Footer from "./Footer";
 
 const data = [
   {
@@ -108,7 +109,7 @@ export default function Home() {
       </div>
 
       <div className="relative">
-        <div className="bg-gray-100 mb-10">
+        <div className="bg-gray-100">
           <div className="grid sm:grid-cols-2 gap-4">
             <div>
               <img
@@ -165,6 +166,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }
