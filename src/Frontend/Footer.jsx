@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import React from "react";
+import SocialMedia from "../Components/SocialMedia";
 
 const Footer = () => {
   return (
@@ -16,6 +17,7 @@ const Footer = () => {
                 blanditiis inventore.
               </p>
             </div>
+            <SocialMedia isFooter={true} />
           </div>
           <div className="py-2">
             <span className="text-3xl font-arbil">Contact</span>
