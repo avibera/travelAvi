@@ -32,15 +32,12 @@ const OurTeam = () => {
         name={"Our Team"}
         description={"Meet our team, we are here for you"}
       />
-      <div className="flex justify-start gap-4 items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-4 gap-5 items-center mx-auto">
         {data?.map((item, index) => (
-          <div>
-            <div
-              key={index}
-              className="overflow-hidden relative group hover:cursor-pointer"
-            >
+          <div key={index} className="mx-auto px-5 sm:px-0">
+            <div className="overflow-hidden relative group hover:cursor-pointer">
               <img
-                className="w-[300px] h-[350px] object-cover group-hover:scale-105 transition-all duration-500"
+                className="w-full h-[350px] object-cover group-hover:scale-105 transition-all duration-500"
                 src={item?.image_path}
               />
               <div className="absolute inset-0 group-hover:bg-yellow-600 group-hover:cursor-pointer group-hover:opacity-60 transition-all duration-300"></div>

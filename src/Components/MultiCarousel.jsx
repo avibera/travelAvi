@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import ImageCard from "./ImageCard";
 import ImageCardWithPrice from "./ImageCardWithPrice";
 
-const MultiCarousel = ({ data, type }) => {
+const MultiCarousel = ({ data, type, isPackageDetails = false }) => {
   return (
     <div>
       <Carousel
@@ -63,7 +63,7 @@ const MultiCarousel = ({ data, type }) => {
         {data &&
           data?.map((item, index) => (
             <div key={index}>
-              <div className="px-2">
+              <div className={`${isPackageDetails ? "sm:px-0.5" : "px-2"}`}>
                 {type === "cardWithPrice" ? (
                   <ImageCardWithPrice item={item} />
                 ) : (

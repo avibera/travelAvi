@@ -11,6 +11,7 @@ const data = [
   {
     id: 1,
     name: "Delhi",
+    slug: "delhi",
     path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
@@ -18,6 +19,7 @@ const data = [
   {
     id: 2,
     name: "Goa",
+    slug: "goa_beaches",
     path: "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
       "Welcome to the most beautiful and exotic destinations in the world.",
