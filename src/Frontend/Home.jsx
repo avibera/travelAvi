@@ -15,6 +15,32 @@ const data = [
     path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
+    package: {
+      package_name: "Delhi Tour Package (5 Days, 4 Nights)",
+      package_price: "2000 /- person",
+      package_gallry: [
+        {
+          id: 1,
+          name: "Agra - Taj Mahal",
+          path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+          id: 2,
+          name: "Akshardham",
+          path: "https://lh3.googleusercontent.com/proxy/GuuP9z9f8AKP6XBhTDH-3553S3iYXWOmXW0mj0fOzIGwzOj6agHwkQykP2dlphSEKYAEe-i_YVqVwBvSs_Figq_UdbfHxbwlzHmdnqYX03fVg1SZNTtiWb-IOE_kKN-d2wMXX3KztkwY5xB0uz61-adaZpsSwSw=s1360-w1360-h1020-rw",
+        },
+        {
+          id: 3,
+          name: "Indaia Gate",
+          path: "https://lh3.googleusercontent.com/p/AF1QipNxZLVflzbAPtUZ7h3kKZsRCyHCYglkxmIq9O0g=s1360-w1360-h1020-rw",
+        },
+        {
+          id: 4,
+          name: "Red Fort",
+          path: "https://media.istockphoto.com/id/1287042734/photo/tourists-visiting-the-red-fort-in-delhi-india.jpg?s=612x612&w=0&k=20&c=XvtZKWgPxHCnXlzUWJthVIEck1PCr4_OkLHOc2VlIIw=",
+        },
+      ],
+    },
   },
   {
     id: 2,
@@ -25,7 +51,7 @@ const data = [
       "Welcome to the most beautiful and exotic destinations in the world.",
     package: {
       package_name: "Goa Tour Package With All Beaches(5 Days, 4 Nights)",
-      package_price: "4000 / person",
+      package_price: "4000 /- person",
       package_gallry: [
         {
           id: 1,
