@@ -2,6 +2,8 @@ import React from "react";
 import MultiCarousel from "../Components/MultiCarousel";
 import { IndianRupee } from "lucide-react";
 import TextInput from "../Components/TextInput";
+import Button from "../Components/Button";
+import Amenities from "../Components/Amenities";
 
 const data = [
   {
@@ -76,6 +78,9 @@ const PackageDetails = ({}) => {
                   Manikaran hot spring.
                 </p>
               </div>
+              <div className="mt-16">
+                <Amenities />
+              </div>
             </div>
           </div>
           <div className="sm:col-span-2">
@@ -132,6 +137,7 @@ const PackageDetails = ({}) => {
                   className={``}
                 />
               </div>
+              <Button label={"Book Now"} additionalClass={"w-full text-lg"} />
             </div>
           </div>
         </div>
