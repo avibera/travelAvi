@@ -8,13 +8,14 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto pt-28">
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-8 px-4 sm:px-0">
           <div className="py-2 col-span-2">
-            <span className="text-3xl font-arbil">TravelAvi</span>
+            <div className="">
+              <img src="./images/logo.png" className="w-48 h-28 object-fill" />
+            </div>
             <div className="">
               <p className="text-gray-400 mt-4">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
-                eum debitis temporibus eius ipsam qui explicabo at corporis
-                tempore nam hic ratione maiores enim nostrum dolorem eaque rem,
-                blanditiis inventore.
+                eum debitis temporibus. eius ipsam qui explicabo at corporis
+                tempore nam hic ratione.
               </p>
             </div>
             <SocialMedia isFooter={true} />
