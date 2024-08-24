@@ -1,9 +1,11 @@
 import { IndianRupee } from "lucide-react";
+import { Link } from "react-router-dom";
 import React from "react";
 
 const ImageCard = ({ item }) => {
+  const data = item.package;
   return (
-    <a href={`${item.slug}/package`}>
+    <Link to={`${item.slug}/package`} state={{ data }}>
       <div className="relative group">
         <div>
           <img className="w-full h-[400px] object-cover" src={item?.path} />
@@ -22,7 +24,7 @@ const ImageCard = ({ item }) => {
           </div>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 

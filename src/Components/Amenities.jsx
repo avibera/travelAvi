@@ -32,7 +32,10 @@ const Amenities = () => {
     <div>
       <div className="flex justify-start">
         {data.map((item, index) => (
-          <div className="mx-auto border p-4 h-[100px] w-[200px] group hover:bg-yellow-400 transition-all duration-300 hover:cursor-pointer">
+          <div
+            key={index}
+            className="mx-auto border p-4 h-[100px] w-[200px] group hover:bg-yellow-400 transition-all duration-300 hover:cursor-pointer"
+          >
             {item?.icon}
             <p className="text-center mt-2 text-sm text-gray-500 font-knit group-hover:text-white">
               {item?.name}

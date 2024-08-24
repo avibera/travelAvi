@@ -4,54 +4,28 @@ import { IndianRupee } from "lucide-react";
 import TextInput from "../Components/TextInput";
 import Button from "../Components/Button";
 import Amenities from "../Components/Amenities";
+import { useLocation } from "react-router-dom";
 
-const data = [
-  {
-    id: 1,
-    name: "Delhi",
-    slug: "delhi",
-    path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description:
-      "Welcome to the most beautiful and exotic destinations in the world",
-  },
-  {
-    id: 2,
-    name: "Goa",
-    slug: "goa_beaches",
-    path: "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description:
-      "Welcome to the most beautiful and exotic destinations in the world.",
-  },
-  {
-    id: 3,
-    name: "Mumbai",
-    path: "https://images.pexels.com/photos/574324/pexels-photo-574324.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description:
-      "Welcome to the most beautiful and exotic destinations in the world.",
-  },
-  {
-    id: 4,
-    name: "Jaipur",
-    path: "https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-    description:
-      "Welcome to the most beautiful and exotic destinations in the world.",
-  },
-];
 const PackageDetails = ({}) => {
+  const location = useLocation();
+  const { state } = location;
   return (
     <div className="">
-      <MultiCarousel data={data} isPackageDetails={true} />
+      <MultiCarousel
+        data={state?.data?.package_gallry}
+        isPackageDetails={true}
+      />
       <div className="max-w-7xl mx-auto py-12 sm:py-24 p-4">
         <div className="grid grid-cols-1 sm:grid-cols-7 gap-5">
           <div className="sm:col-span-5">
             <div>
               <h2 className="text-2xl sm:text-4xl font-semibold font-knit text-gray-700">
-                Kullu, Manali & Rohtang Pass (4 Nights 3 Days)
+                {state?.data?.package_name}
               </h2>
               <div className="flex justify-start text-red-500 py-6 items-center ml-[-6px]">
                 <IndianRupee className="w-7 h-6" />
                 <span className="text-xl sm:text-[29px] font-semibold font-knit">
-                  10,750 Per Person
+                  {state?.data?.package_price}
                 </span>
               </div>
               <div className="py-4">

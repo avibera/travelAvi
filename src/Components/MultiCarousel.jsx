@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ImageCard from "./ImageCard";
 import ImageCardWithPrice from "./ImageCardWithPrice";
+import GallaryImageCard from "./GallaryImageCard";
 
 const MultiCarousel = ({ data, type, isPackageDetails = false }) => {
   return (
@@ -66,6 +67,8 @@ const MultiCarousel = ({ data, type, isPackageDetails = false }) => {
               <div className={`${isPackageDetails ? "sm:px-0.5" : "px-2"}`}>
                 {type === "cardWithPrice" ? (
                   <ImageCardWithPrice item={item} />
+                ) : isPackageDetails == true ? (
+                  <GallaryImageCard item={item} />
                 ) : (
                   <ImageCard item={item} />
                 )}

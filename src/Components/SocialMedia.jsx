@@ -29,7 +29,10 @@ const SocialMedia = ({ isFooter = false, isCard = false }) => {
     return (
       <div className="flex justify-start items-center gap-4 mt-4">
         {icons.map((item, index) => (
-          <div className="text-white hover:cursor-pointer hover:text-yellow-400 hover:mt-[-8px] border-2 hover:border-yellow-400 rounded-full p-2 transition-all duration-300">
+          <div
+            key={index}
+            className="text-white hover:cursor-pointer hover:text-yellow-400 hover:mt-[-8px] border-2 hover:border-yellow-400 rounded-full p-2 transition-all duration-300"
+          >
             {item.icon}
           </div>
         ))}
@@ -39,7 +42,10 @@ const SocialMedia = ({ isFooter = false, isCard = false }) => {
     return (
       <div className="flex justify-start items-center gap-1 mt-4">
         {icons.map((item, index) => (
-          <div className="text-black hover:cursor-pointer hover:text-white hover:mt-[-10px] rounded-full p-2 transition-all duration-300">
+          <div
+            key={index}
+            className="text-black hover:cursor-pointer hover:text-white hover:mt-[-10px] rounded-full p-2 transition-all duration-300"
+          >
             {item.iconCard}
           </div>
         ))}

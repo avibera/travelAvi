@@ -23,6 +23,32 @@ const data = [
     path: "https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     description:
       "Welcome to the most beautiful and exotic destinations in the world.",
+    package: {
+      package_name: "Goa Tour Package With All Beaches(5 Days, 4 Nights)",
+      package_price: "4000 / person",
+      package_gallry: [
+        {
+          id: 1,
+          name: "Palolem Beach",
+          path: "https://images.pexels.com/photos/4628177/pexels-photo-4628177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+          id: 2,
+          name: "Deltin Royale Casino",
+          path: "https://www.deltin.com/assets/subprop/sub_album_pic620231108.1101.jpg",
+        },
+        {
+          id: 3,
+          name: "Canacona Beach",
+          path: "https://images.pexels.com/photos/11878089/pexels-photo-11878089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+        {
+          id: 4,
+          name: "Morijim Beach",
+          path: "https://images.pexels.com/photos/11145288/pexels-photo-11145288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        },
+      ],
+    },
   },
   {
     id: 3,
