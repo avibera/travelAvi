@@ -1,5 +1,6 @@
 import React from "react";
 import { register } from "swiper/element/bundle";
+import Button from "./Button";
 register();
 let data = [
   {
@@ -53,9 +54,10 @@ export const SwipeSlider = () => {
                       {item?.description}
                     </p>
                     <div className="flex justify-center pt-10">
-                      <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
+                      {/* <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
                         Book Now
-                      </button>
+                      </button> */}
+                      <Button label={"Discover More"} />
                     </div>
                   </div>
                 </div>

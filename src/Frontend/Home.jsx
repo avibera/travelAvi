@@ -6,6 +6,7 @@ import PopularDestinations from "./PopularDestinations";
 import InternationalDestinations from "./InternationalDestinations";
 import LastMinuteOffers from "./LastMinuteOffers";
 import Footer from "./Footer";
+import Button from "../Components/Button";
 
 const data = [
   {
@@ -118,9 +119,7 @@ export default function Home() {
                 you’ll enjoy every step you make.
               </p>
 
-              <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
-                Book Now
-              </button>
+              <Button label={"Book Now"} />
             </div>
           </div>
         </div>
@@ -144,9 +143,7 @@ export default function Home() {
                 you’ll enjoy every step you make.
               </p>
 
-              <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
-                Book Now
-              </button>
+              <Button label={"Book Now"} />
             </div>
           </div>
           <div>
@@ -182,10 +179,6 @@ export default function Home() {
                   mystique Tibet and start your spiritual adventure. We promise,
                   you’ll enjoy every step you make.
                 </p>
-
-                <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
-                  Book Now
-                </button>
               </div>
             </div>
           </div>
