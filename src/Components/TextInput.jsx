@@ -2,8 +2,8 @@ import React from "react";
 
 const TextInput = ({ labelName, placeholder, className, type }) => {
   return (
-    <div className="text-gray-700 mt-2">
-      <label>{labelName}</label>
+    <div className="text-gray-700 mt-1 font-knit">
+      <label className="text-sm">{labelName}</label>
       <input
         type={type}
         placeholder={placeholder}
