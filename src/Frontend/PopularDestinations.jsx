@@ -6,7 +6,7 @@ import ImageCard from "../Components/ImageCard";
 const PopularDestinations = ({ data }) => {
   return (
     <div
-      className="bg-fixed py-14 mt-52"
+      className="bg-fixed py-14 mt-52 sm:mt-0"
       style={{
         backgroundImage: `url(${`https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/h1-background-2.jpg`})`,
         backgroundSize: "fill",
