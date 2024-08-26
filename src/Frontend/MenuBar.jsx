@@ -31,7 +31,7 @@ export const MenuBar = () => {
     },
     {
       name: "Destinations",
-      slug: "#!",
+      slug: "all-destinations",
     },
 
     {

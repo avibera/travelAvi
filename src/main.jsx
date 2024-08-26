@@ -7,6 +7,7 @@ import { Layout } from "./Frontend/Layout.jsx";
 import Home from "./Frontend/Home.jsx";
 import { About } from "./Frontend/About.jsx";
 import PackageDetails from "./Frontend/PackageDetails.jsx";
+import Destination from "./Frontend/Destination.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: `:slug/package`,
         element: <PackageDetails />,
+      },
+      {
+        path: "all-destinations",
+        element: <Destination />,
       },
     ],
   },

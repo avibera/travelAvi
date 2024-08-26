@@ -5,7 +5,7 @@ const ImageCardWithPrice = ({ item }) => {
     <div className="">
       <img
         className="w-[380px] h-[230px] object-cover"
-        src="https://images.pexels.com/photos/27308308/pexels-photo-27308308/free-photo-of-lofoten-islands-of-norway.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        src={item?.image_path}
       />
       <div className="py-8">
         <span className="text-gray-400 font-semibold">{item?.country}</span>
