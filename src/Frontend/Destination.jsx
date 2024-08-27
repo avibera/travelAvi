@@ -227,12 +227,12 @@ const Destination = () => {
           </div>
         </div>
         <SliderShape />
-        <Heading
-          name={"Best Places of " + selectedCountry?.countary}
-          description={"Choose Your Next Adventure"}
-        />
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-0">
+          <Heading
+            name={"Best Places of " + selectedCountry?.countary}
+            description={"Choose Your Next Adventure"}
+          />
           <div className="grid grid-cols-1 sm:grid-cols-3 items-center pb-20">
             {selectedCountry?.gallary?.map((item, index) => (
               <div key={index}>

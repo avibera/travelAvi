@@ -63,7 +63,7 @@ export const MenuBar = () => {
     <nav
       className={`w-full text-center top-0 z-[9999] transition-all duration-500 ${
         Scroll
-          ? "bg-white sticky text-black shadow-xl"
+          ? "bg-white fixed text-black shadow-xl"
           : "bg-white sm:bg-transparent fixed text-white"
       } `}
     >
@@ -73,12 +73,12 @@ export const MenuBar = () => {
             {Scroll == true ? (
               <img
                 src="./images/logo2.png"
-                className="h-16 w-full object-cover transition-all duration-500"
+                className="h-16  sm:w-full object-cover transition-all duration-500"
               />
             ) : (
               <img
                 src="./images/logo.png"
-                className="h-20 sm:h-24 w-full object-cover transition-all duration-500"
+                className="h-20 sm:h-24 w-32 sm:w-full object-cover transition-all duration-500"
               />
             )}
           </div>
