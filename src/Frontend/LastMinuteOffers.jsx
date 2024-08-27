@@ -11,7 +11,8 @@ const data = [
     price: "$1000",
     duration: "5 Days",
     best_time_to_visit: "Winter",
-    path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image_path:
+      "https://blog.dookinternational.com/wp-content/uploads/2022/11/1.Explore-Cape-Town-South-Africa-.jpg",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
   },
@@ -22,7 +23,8 @@ const data = [
     price: "$1000",
     duration: "5 Days",
     best_time_to_visit: "Winter",
-    path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image_path:
+      "https://blog.dookinternational.com/images/posts/10.Ngorongoro-Conservation-Area.jpg",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
   },
@@ -33,7 +35,8 @@ const data = [
     price: "$1000",
     duration: "5 Days",
     best_time_to_visit: "Winter",
-    path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image_path:
+      "https://www.planetware.com/wpimages/2020/07/south-africa-top-attractions-intro-paragraph-giraffes-sunset.jpg",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
   },
@@ -44,7 +47,8 @@ const data = [
     price: "$1000",
     duration: "5 Days",
     best_time_to_visit: "Winter",
-    path: "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image_path:
+      "https://travel.usnews.com/dims4/USNEWS/6711694/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fvictoria_falls_cropped_445x280_urQE1cw.jpg",
     description:
       "Welcome to the most beautiful and exotic destinations in the world",
   },

@@ -102,11 +102,11 @@ export const MenuBar = () => {
           }`}
         >
           <div className="p-2 border-b border-gray-300">
-            <div className="flex justify-between px-4">
+            <div className="flex justify-between items-center px-4">
               <div>
                 <img
                   src="./images/logo.png"
-                  className="h-20 w-full object-cover"
+                  className="h-20 w-32 object-cover"
                 />
               </div>
               <div>

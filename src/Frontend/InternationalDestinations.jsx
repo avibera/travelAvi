@@ -12,9 +12,9 @@ const InternationalDestinations = () => {
             "Contrary to popular belief, Lorem Ipsum is not simply random text. Ithas roots in a piece of classical Latin literature from"
           }
         />
-        <div className="grid grid-cols-7 gap-6">
-          <div className="col-span-5">
-            <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-7 gap-6">
+          <div className="sm:col-span-5">
+            <div className="grid grid-cols-2 gap-6 px-4 sm:px-0">
               <div className="col-span-2 overflow-hidden relative group">
                 <Link to={`/all-destinations`} state={{ slug: "switzerland" }}>
                   <img
@@ -30,7 +30,7 @@ const InternationalDestinations = () => {
                   </div>
                 </Link>
               </div>
-              <div className=" overflow-hidden relative group">
+              <div className=" overflow-hidden relative group ">
                 <Link to={`/all-destinations`} state={{ slug: "thailand" }}>
                   <img
                     className="w-full h-[350px] object-cover group-hover:scale-105 transition-all duration-500"
@@ -62,11 +62,11 @@ const InternationalDestinations = () => {
               </div>
             </div>
           </div>
-          <div className="w-full col-span-2 h-[400px] bg-red-400">
+          <div className="w-full col-span-2 h-[400px] px-4 sm:px-0">
             <div className="col-span-2 overflow-hidden relative group">
               <Link to={`/all-destinations`} state={{ slug: "india" }}>
                 <img
-                  className="w-full h-[725px] object-cover group-hover:scale-105 transition-all duration-500"
+                  className="w-full h-[400px] sm:h-[725px] object-cover group-hover:scale-105 transition-all duration-500"
                   src="https://images.pexels.com/photos/6556790/pexels-photo-6556790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
                 />

@@ -38,7 +38,7 @@ export const SwipeSlider = () => {
       >
         {data?.map((item) => (
           <swiper-slide key={item?.id}>
-            <div className="relative max-h-[900px]">
+            <div className="relative max-h-[900px] mt-24 sm:mt-0">
               <div className="w-full max-auto">
                 <img
                   src={item?.path}
