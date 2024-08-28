@@ -11,7 +11,7 @@ const destination = [
     price: "$850",
     duration: "4 Days",
     best_time_to_visit: "Winter",
-    image_path: "./images/goaBeach.jpeg",
+    image_path: "./images/canaconaBeach.jpeg",
   },
   {
     country: "India",
@@ -19,7 +19,8 @@ const destination = [
     price: "$950",
     duration: "5 Days",
     best_time_to_visit: "Spring",
-    image_path: "./images/delhiMonument.jpeg",
+    image_path:
+      "https://images.pexels.com/photos/14520365/pexels-photo-14520365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     country: "India",
@@ -27,7 +28,8 @@ const destination = [
     price: "$900",
     duration: "3 Days",
     best_time_to_visit: "Winter",
-    image_path: "./images/jaipurPalace.jpeg",
+    image_path:
+      "https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     country: "India",
@@ -35,7 +37,8 @@ const destination = [
     price: "$1100",
     duration: "6 Days",
     best_time_to_visit: "Monsoon",
-    image_path: "./images/keralaBackwaters.jpeg",
+    image_path:
+      "https://images.pexels.com/photos/3370598/pexels-photo-3370598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   {
     country: "India",
@@ -43,7 +46,7 @@ const destination = [
     price: "$700",
     duration: "2 Days",
     best_time_to_visit: "Winter",
-    image_path: "./images/tajMahal.jpeg",
+    image_path: "./images/TajMahal.jpeg",
   },
   {
     country: "India",
@@ -51,7 +54,8 @@ const destination = [
     price: "$800",
     duration: "4 Days",
     best_time_to_visit: "Autumn",
-    image_path: "./images/victoriaMemorial.jpeg",
+    image_path:
+      "https://images.pexels.com/photos/2846217/pexels-photo-2846217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
   //   {
   //     country: "India",
