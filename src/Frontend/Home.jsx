@@ -5,6 +5,7 @@ import { BookingForm } from "./BookingForm";
 import PopularDestinations from "./PopularDestinations";
 import InternationalDestinations from "./InternationalDestinations";
 import LastMinuteOffers from "./LastMinuteOffers";
+import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
 import Button from "../Components/Button";
 
@@ -93,6 +94,7 @@ const data = [
   },
 ];
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <>
       <SwipeSlider />
@@ -113,13 +115,16 @@ export default function Home() {
                 A Simply Perfect Place<br></br> To Get Lost
               </p>
 
-              <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+              <p className="text-gray-400 text-sm sm:text-lg font-knit py-5 sm:py-8">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure. We promise,
                 you’ll enjoy every step you make.
               </p>
 
-              <Button label={"Book Now"} />
+              <Button
+                label={"Book Now"}
+                onClick={() => navigate("/all-destinations")}
+              />
             </div>
           </div>
         </div>
@@ -137,13 +142,16 @@ export default function Home() {
                 A Simply Perfect Place<br></br> To Get Lost
               </p>
 
-              <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+              <p className="text-gray-400 text-sm sm:text-lg font-knit py-5 sm:py-8">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure. We promise,
                 you’ll enjoy every step you make.
               </p>
 
-              <Button label={"Book Now"} />
+              <Button
+                label={"Book Now"}
+                onClick={(e) => navigate("/all-destinations")}
+              />
             </div>
           </div>
           <div>
@@ -174,7 +182,7 @@ export default function Home() {
                   A Simply Perfect Place<br></br> To Get Lost
                 </p>
 
-                <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+                <p className="text-gray-400 text-sm sm:text-lg font-knit py-5 sm:py-8">
                   Treat yourself with a journey to your inner self. Visit a
                   mystique Tibet and start your spiritual adventure. We promise,
                   you’ll enjoy every step you make.
@@ -191,10 +199,10 @@ export default function Home() {
         >
           <div className="sm:flex sm:justify-start items-center gap-40">
             <div className="text-center">
-              <span className="text-3xl text-gray-800 font-arbil">
+              <span className="text-2xl sm:text-3xl text-gray-800 font-arbil">
                 Join Newsletter!
               </span>
-              <p className="text-xl text-gray-800 font-knit">
+              <p className="text-sm sm:text-xl text-gray-800 font-knit">
                 To receive our best deals
               </p>
             </div>

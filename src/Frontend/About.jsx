@@ -2,6 +2,8 @@ import React from "react";
 import { SliderShape } from "../Components/SliderShape";
 import Heading from "../Components/Heading";
 import OurTeam from "../Components/OurTeam";
+import Button from "../Components/Button";
+import { useNavigate } from "react-router-dom";
 
 const data = [
   {
@@ -26,6 +28,7 @@ const data = [
   },
 ];
 export const About = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div
@@ -59,15 +62,18 @@ export const About = () => {
             }
           />
         </div>
-        <div className="absolute top-24 right-16">
-          <img className="" src="/images/AboutUsBanner/World-map.png" />
+        <div className="absolute top-8 right-0 sm:top-24 sm:right-16">
+          <img
+            className="h-[150px] w-[250px] sm:h-full sm:w-full"
+            src="/images/AboutUsBanner/World-map.png"
+          />
         </div>
-        <div className="h-[100px] w-[100px] sm:h-[200px] sm:w-[300px] absolute top-96 left-8">
+        <div className="h-[100px] w-[100px] sm:h-[200px] sm:w-[300px] absolute top-40 left-0 sm:top-96 sm:left-8">
           <img className="" src="/images/AboutUsBanner/plane.png" />
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto py-40">
+      <div className="max-w-7xl mx-auto py-20 sm:py-40">
         <div
           className="w-full  sm:h-[600px]"
           style={{
@@ -86,7 +92,7 @@ export const About = () => {
               Why We Are Best For You
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 sm:gap-2 mt-10 px-4 sm:px-20">
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 sm:gap-2 mt-10 px-6 pb-10 sm:px-20">
             {data?.map((item, index) => (
               <div
                 key={index}
@@ -106,21 +112,22 @@ export const About = () => {
 
       <div className="mb-10 bg-[#1C1C1C]">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="w-[380px] sm:w-[580px] mx-auto py-7">
+          <div className="w-[380px] sm:w-[580px] mx-auto pt-6 sm:pt-0 sm:py-7">
             <div className="text-center p-2 sm:p-10">
               <p className="text-white text-[25px] sm:text-[45px] sm:mt-10 font-arbil">
                 Plan A Trip Around <br></br> The World
               </p>
 
-              <p className="text-gray-400 text-lg font-knit py-5 sm:py-8">
+              <p className="text-gray-400 text-sm sm:text-lg font-knit py-5 sm:py-8">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure. We promise,
                 you’ll enjoy every step you make.
               </p>
 
-              <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
+              {/* <button className="text-white bg-yellow-400 px-6 py-1.5 sm:px-8 sm:py-3">
                 Book Now
-              </button>
+              </button> */}
+              <Button label={"Book Now"} onClick={(e) => navigate("/")} />
             </div>
           </div>
           <div>

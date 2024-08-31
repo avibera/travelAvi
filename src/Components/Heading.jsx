@@ -11,7 +11,7 @@ const Heading = ({ name, description, className, classNameForDescription }) => {
         </div>
         <div className={`text-center ${classNameForDescription}`}>
           {" "}
-          <p className="text-gray-400 text-sm sm:text-[17px] text-center">
+          <p className="text-gray-400 font-knit text-sm sm:text-[17px] text-center">
             {description}
           </p>
         </div>

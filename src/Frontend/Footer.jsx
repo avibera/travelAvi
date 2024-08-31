@@ -12,7 +12,7 @@ const Footer = () => {
               <img src="./images/logo.png" className="w-48 h-28 object-fill" />
             </div>
             <div className="">
-              <p className="text-gray-400 mt-4">
+              <p className="text-gray-400 text-sm mt-4">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio
                 eum debitis temporibus. eius ipsam qui explicabo at corporis
                 tempore nam hic ratione.
@@ -21,8 +21,8 @@ const Footer = () => {
             <SocialMedia isFooter={true} />
           </div>
           <div className="py-2">
-            <span className="text-3xl font-arbil">Contact</span>
-            <div className="text-gray-400 mt-4">
+            <span className="text-2xl sm:text-3xl font-arbil">Contact</span>
+            <div className="text-gray-400 mt-4 text-sm">
               <div className="flex justify-start items-center gap-2 mt-2 hover:text-white">
                 <Phone className="w-5 h-4" /> <span>+91 123456789</span>
               </div>
@@ -35,8 +35,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="py-2">
-            <span className="text-3xl font-arbil">Quick Links</span>
-            <div className="text-gray-400 mt-4">
+            <span className="text-2xl sm:text-3xl font-arbil">Quick Links</span>
+            <div className="text-gray-400 mt-4 text-sm">
               <p>Home</p>
               <p>Destinations</p>
               <p>Blog</p>
@@ -44,8 +44,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="py-2">
-            <span className="text-3xl font-arbil">Suscribe</span>
-            <div className="text-gray-400 mt-4">
+            <span className="text-2xl sm:text-3xl font-arbil">Suscribe</span>
+            <div className="text-gray-400 mt-4 text-sm">
               <p className="py-2">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Quibusdam,
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
         <div className="border-b border-b-slate-700 mt-16"></div>
         <div className="flex justify-center items-center py-10">
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-xs">
             Copyright © 2024 TravelAvi. All rights reserved
           </p>
         </div>

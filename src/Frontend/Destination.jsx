@@ -272,7 +272,7 @@ const Destination = () => {
         />
 
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 items-center pb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 items-center px-4 pb-20">
             {destination?.map((item, index) => (
               <div key={index}>
                 <ImageCardWithPrice item={item} />

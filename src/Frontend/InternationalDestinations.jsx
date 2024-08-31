@@ -24,7 +24,7 @@ const InternationalDestinations = () => {
                   />
                   <div className="absolute inset-0 group-hover:bg-gray-800 group-hover:cursor-pointer group-hover:opacity-30 transition-all duration-300"></div>
                   <div className="absolute bottom-10 left-4">
-                    <span className="text-white font-knit text-4xl font-semibold">
+                    <span className="text-white font-knit text-2xl sm:text-4xl font-semibold">
                       switzerland
                     </span>
                   </div>
@@ -39,7 +39,7 @@ const InternationalDestinations = () => {
                   />
                   <div className="absolute inset-0 group-hover:bg-gray-800 group-hover:cursor-pointer group-hover:opacity-20 transition-all duration-300"></div>
                   <div className="absolute bottom-10 left-4">
-                    <span className="text-white font-knit text-4xl font-semibold">
+                    <span className="text-white font-knit text-2xl sm:text-4xl font-semibold">
                       Thailand
                     </span>
                   </div>
@@ -54,7 +54,7 @@ const InternationalDestinations = () => {
                   />
                   <div className="absolute inset-0 group-hover:bg-gray-800 group-hover:cursor-pointer group-hover:opacity-30 transition-all duration-300"></div>
                   <div className="absolute bottom-10 left-4">
-                    <span className="text-white font-knit text-4xl font-semibold">
+                    <span className="text-white font-knit text-2xl sm:text-4xl font-semibold">
                       Africa
                     </span>
                   </div>
@@ -72,7 +72,7 @@ const InternationalDestinations = () => {
                 />
                 <div className="absolute inset-0 group-hover:bg-gray-800 group-hover:cursor-pointer group-hover:opacity-30 transition-all duration-300"></div>
                 <div className="absolute bottom-10 left-4">
-                  <span className="text-white font-knit text-4xl font-semibold">
+                  <span className="text-white font-knit text-2xl sm:text-4xl font-semibold">
                     India
                   </span>
                 </div>

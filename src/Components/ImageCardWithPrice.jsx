@@ -24,7 +24,7 @@ const ImageCardWithPrice = ({ item }) => {
 
         <div className="border-b border-b-slate-200 mt-7 mb-6"></div>
 
-        <div className="flex justify-between text-gray-400 font-knit">
+        <div className="flex justify-between text-gray-400 font-knit px-1.5">
           <div>
             <p>Duration</p>
             <span className="text-xl text-gray-700">{item?.duration}</span>
