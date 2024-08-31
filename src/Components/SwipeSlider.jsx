@@ -7,7 +7,7 @@ let data = [
     id: 1,
     category: 1,
     title: "EXPERIENCE NATURE'S BEAUTY",
-    path: "https://images.pexels.com/photos/2132174/pexels-photo-2132174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    path: "https://images.unsplash.com/photo-1551632811-561732d1e306?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJla2luZ3xlbnwwfHwwfHx8MA%3D%3D",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
   },
